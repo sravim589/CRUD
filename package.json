@@ -4,9 +4,9 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node App.js"
-
+    "build": " server && npm install && cd client && npm install && npm run build",
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
